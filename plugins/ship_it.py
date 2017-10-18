@@ -22,7 +22,6 @@ class Ship_it(BotPlugin):
         'https://1.bp.blogspot.com/_v0neUj-VDa4/TFBEbqFQcII/AAAAAAAAFBU/E8kPNmF1h1E/s640/squirrelbacca-thumb.jpg',
         'https://shipitsquirrel.github.io/images/squirrel.png',
         'https://qph.ec.quoracdn.net/main-qimg-c8781a4bb1f17e330b50cb35f851da05-c',
-        
     ]
     # stop ignoring LineLengthBear PyCodeStyleBear
 
