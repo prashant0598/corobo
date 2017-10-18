@@ -8,7 +8,6 @@ class Ship_it(BotPlugin):
     """
     Show motivational ship it squirrel images.
     """
-
     # start ignoring LineLengthBear PyCodeStyleBear
     IMAGES = [
         'http://i.imgur.com/DPVM1.png',
