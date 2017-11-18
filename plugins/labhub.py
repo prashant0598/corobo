@@ -317,11 +317,14 @@ class LabHub(BotPlugin):
         eligility_conditions = [
             '- You must be a member of {} org to be assigned an issue '
             'If you are not a member yet, just type Hello World and '
-            'corobo will invite you.'.format(self.GH_ORG_NAME),
+            'corobo will send you invitation via mail.'
+            'You will be added in Newcomers Team '.format(self.GH_ORG_NAME),
             '- A newcomer cannot be assigned to an issue with a difficulty '
-            'level higher than newcomer or low difficulty.',
-            '- A newcomer cannot be assigned to unlabelled issues.',
-            '- initiatives/gci labelled issue assignments are blocked.'
+            'level higher than newcomer or difficulty/low.'
+            'Check Newcomers Guide for further reference. ',
+            '- A newcomer cannot be assigned to unlabelled issues.'
+            'You can ping the maintainers for labelling ',
+            '-assignments to initiatives/gci labelled issues are blocked.'
         ]
 
         try:
